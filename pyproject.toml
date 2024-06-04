@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-et-4314028"
+version = "0.1.0"
+description = ""
+authors = ["Alex Baeza <abaeza@aibe.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+lab = "^8.2"
+notebook = "^7.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
